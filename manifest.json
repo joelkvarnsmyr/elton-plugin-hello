@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hello",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "author": "joelkvarnsmyr",
+  "description": "Reference plugin — counter widget + 5s MQTT tick bridge.",
+  "homepage": "https://github.com/joelkvarnsmyr/elton-plugin-hello",
+  "eltonCompat": ">=0.5.0",
+  "contributes": {
+    "widget": {
+      "file": "ui/HelloWidget.js",
+      "size": "small",
+      "label": "Hello"
+    },
+    "bridge": {
+      "file": "main.py",
+      "service": "hello"
+    }
+  },
+  "permissions": {
+    "mqtt_publish": ["plugins/hello/#"],
+    "mqtt_subscribe": [],
+    "store_read": ["battery"]
+  }
+}
