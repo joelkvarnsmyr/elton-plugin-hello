@@ -4,6 +4,11 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  define: {
+    // React's bundle checks process.env.NODE_ENV; Vite library mode doesn't
+    // define it by default. Pin to 'production' for the distributed bundle.
+    'process.env.NODE_ENV': JSON.stringify('production'),
+  },
   build: {
     lib: {
       entry: resolve(__dirname, 'src/HelloWidget.tsx'),
