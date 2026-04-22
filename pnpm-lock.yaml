@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@elton/plugin-sdk':
-        specifier: github:joelkvarnsmyr/ELTON-Dashboard-Project#feat/sp4-plugin-hello&path:/packages/plugin-sdk
-        version: git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#d1beba9c6dba99d8e1f3296d787f9486ba8ee907&path:/packages/plugin-sdk(react@18.3.1)
+        specifier: github:joelkvarnsmyr/ELTON-Dashboard-Project#main&path:/packages/plugin-sdk
+        version: git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#e7e94925be58fd17301a1e396f605103557bca31&path:/packages/plugin-sdk(react@18.3.1)
       '@types/react':
         specifier: ^18.3.0
         version: 18.3.28
@@ -112,8 +112,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@elton/plugin-sdk@git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#d1beba9c6dba99d8e1f3296d787f9486ba8ee907&path:/packages/plugin-sdk':
-    resolution: {commit: d1beba9c6dba99d8e1f3296d787f9486ba8ee907, path: /packages/plugin-sdk, repo: https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git, type: git}
+  '@elton/plugin-sdk@git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#e7e94925be58fd17301a1e396f605103557bca31&path:/packages/plugin-sdk':
+    resolution: {commit: e7e94925be58fd17301a1e396f605103557bca31, path: /packages/plugin-sdk, repo: https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git, type: git}
     version: 0.1.0
     peerDependencies:
       react: ^18.0.0
@@ -694,7 +694,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@elton/plugin-sdk@git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#d1beba9c6dba99d8e1f3296d787f9486ba8ee907&path:/packages/plugin-sdk(react@18.3.1)':
+  '@elton/plugin-sdk@git+https://github.com/joelkvarnsmyr/ELTON-Dashboard-Project.git#e7e94925be58fd17301a1e396f605103557bca31&path:/packages/plugin-sdk(react@18.3.1)':
     dependencies:
       react: 18.3.1
 

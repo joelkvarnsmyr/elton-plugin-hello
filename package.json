@@ -10,7 +10,7 @@
     "test:bridge": "cd bridge && python -m pytest tests -v"
   },
   "devDependencies": {
-    "@elton/plugin-sdk": "github:joelkvarnsmyr/ELTON-Dashboard-Project#feat/sp4-plugin-hello&path:/packages/plugin-sdk",
+    "@elton/plugin-sdk": "github:joelkvarnsmyr/ELTON-Dashboard-Project#main&path:/packages/plugin-sdk",
     "@types/react": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
     "react": "^18.3.1",
