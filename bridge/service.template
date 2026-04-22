@@ -1,0 +1,19 @@
+[Unit]
+Description=Dashkit Plugin: {{PLUGIN_ID}}
+After=network.target mosquitto.service
+Wants=mosquitto.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory={{PLUGIN_DIR}}/bridge
+Environment=MQTT_HOST=127.0.0.1
+Environment=MQTT_PORT=1883
+ExecStart={{PLUGIN_DIR}}/bridge/venv/bin/python3 {{BRIDGE_ENTRY}}
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
