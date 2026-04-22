@@ -13,7 +13,7 @@ export default defineConfig({
     outDir: 'ui',
     emptyOutDir: false,
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime', '@elton/plugin-sdk'],
+      external: [],
     },
     minify: false,
   },
