@@ -1,0 +1,7 @@
+node_modules/
+dist/
+bridge/venv/
+bridge/__pycache__/
+bridge/tests/__pycache__/
+*.pyc
+.DS_Store
